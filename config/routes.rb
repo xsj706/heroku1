@@ -1,4 +1,5 @@
 Rails40first::Application.routes.draw do
+  devise_for :installs
   get "about" =>"pages#about"
   get "contact" =>"pages#contact"
 root "pages#home"
